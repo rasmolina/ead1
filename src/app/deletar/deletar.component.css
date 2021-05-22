@@ -1,0 +1,25 @@
+div{
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+p, h2{
+    font-family: Arial;
+}
+
+#btnDel{
+    background-color: red;
+    font-size: 14px;
+    height: 40px;
+    width: 150px;
+    font-family: Arial;
+}
+
+#btnCancel{
+    background-color: chartreuse;
+    font-size: 14px;
+    height: 40px;
+    width: 150px;
+    font-family: Arial;
+}

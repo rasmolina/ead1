@@ -1,0 +1,17 @@
+<div>
+<h2>Confirma a exclusão deste produto?</h2>
+</div>
+
+<div>
+    <p>Título: <strong>{{produto.title}}</strong></p>
+    <p>Preço: <strong>{{produto.price}}</strong></p>
+    <p>Descrição: <strong>{{produto.description}}</strong></p>
+</div>
+
+<div>
+    <button id="btnDel" (click)="deletar()">Deletar</button>
+</div>
+<br>
+<div>
+    <button id="btnCancel" (click)="cancelar()">Cancelar</button>
+</div>

@@ -1,0 +1,43 @@
+div{
+    align-content: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    background-color: bisque;
+    text-align: center;
+    font-family: Arial;
+    margin-top: 10px;
+}
+
+thead{
+    background-color: cadetblue;
+    font-family: Arial;
+}
+
+td{
+    font-family: Arial;
+}
+
+.selecionado{
+    color: white;
+    background-color: slateblue;
+}
+
+#btn_ed{
+    background-color: chartreuse;
+    font-size: 12px;
+    height: 30px;
+    width: 150px;
+    font-family: Arial;
+}
+
+#btn_del{
+    background-color: red;
+    font-size: 12px;
+    height: 30px;
+    width: 150px;
+    font-family: Arial;
+}

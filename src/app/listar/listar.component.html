@@ -1,0 +1,22 @@
+<div>
+    <table>
+        <thead>
+            <tr>
+                <td>Produto</td>
+                <td>Preço</td>
+                <td>Descrição</td>
+                <td>Edição</td>
+                <td>Exclusão</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let p of listaProdutos">
+                <td>{{p.title}}</td>
+                <td>{{p.price}}</td>
+                <td>{{p.description}}</td>
+                <td><a routerLink="/edicao/{{p._id}}"><button id="btn_ed">Editar</button></a></td>
+                <td><a routerLink="/delecao/{{p._id}}"><button id="btn_del">Deletar</button></a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

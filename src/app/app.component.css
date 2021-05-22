@@ -1,0 +1,12 @@
+button{
+    background-color: pink;
+    border-style: inset;
+    font-size: 12px;
+    height: 40px;
+    width: 150px;
+    font-family: Arial;
+}
+
+header, footer{
+    text-align: center;
+}

@@ -1,0 +1,24 @@
+<div>
+    <h2>Atualize as informações do produto</h2>
+</div>
+
+<div>
+    <label>Título
+        <input [(ngModel)]="produtoSelecionado.title">
+    </label><br>
+    <label>Preço
+        <input [(ngModel)]="produtoSelecionado.price" (focus)="aviso()">
+    </label><br>
+    <label>Descrição
+        <textarea [(ngModel)]="produtoSelecionado.description"></textarea>
+    </label><br><br>
+
+</div>
+
+<div>
+    <button (click)="atualizar()">Atualizar</button>
+</div>
+<br>
+<div>
+    <button (click)="cancelar()">Cancelar</button>
+</div>
